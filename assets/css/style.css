@@ -1,6 +1,5 @@
 body {
 	background-image: url(../images/regal/regal.png);
-	height: 100%;
 }
 
 header {
@@ -89,10 +88,6 @@ a:hover{
 	text-decoration: none;
 }
 
-.forthefooter {
-	min-height: calc(100vh - 60px);
-}
-
 footer {
 	background-color: #666666;
 	color: #777777;
@@ -102,6 +97,8 @@ footer {
 	text-align: center;
 	vertical-align: middle;
 		line-height: 60px;
+	position: fixed;
+		bottom: 0;
 	width: 100%;
 }
 
@@ -123,7 +120,6 @@ p {
 	padding-top: 20px;
 	line-height: 2;
 	margin-left: 20px;
-	margin-right: 20px;
 }
 
 /* PORTFOLIO specific styling*/
@@ -131,32 +127,11 @@ p {
 .portfolioimg {
 	height: 220px;
 	width: 220px;
-	padding: 10px;
 }
 
 #images {
-	padding-left: 80px;
+	margin: auto;
 }
 
 /* CONTACT specific styling*/
 
-form {
-	padding: 20px;
-}
-
-.mytext {
-	width: 100%;
-}
-
-.mytextbig {
-	width: 100%;
-	height: 100px;
-}
-
-.submit {
-	background-color: #4aaaa5;
-	color: white;
-	border: none;
-	height: 30px;
-	width: 60px;
-}
